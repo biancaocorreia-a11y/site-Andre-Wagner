@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>R I C O K K | Haute Couture</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="topbar">
+        <a href="#" class="wordmark">B I B I</a>
+
+        <span class="topbar-center">MAISON DE COUTURE</span>
+
+        <span class="topbar-right">EST. MMXXVI</span>
+    </header>
+
+    <main class="page">
+
+        <!-- LADO EDITORIAL -->
+        <section class="editorial">
+
+            <div class="editorial-image">
+                <img
+                    src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1200&q=85"
+                    alt="Editorial de moda feminina sofisticada"
+                >
+
+                <div class="image-caption">
+                    <span>COLLECTION N° 01</span>
+                    <span>THE ART OF BEING</span>
+                </div>
+            </div>
+
+            <div class="editorial-text">
+                <span class="eyebrow">A NEW EXPRESSION OF ELEGANCE</span>
+
+                <h1>
+                    A beleza está<br>
+                    nos <em>detalhes.</em>
+                </h1>
+
+                <p>
+                    Uma experiência exclusiva, criada para quem
+                    transforma o vestir em uma forma de arte.
+                </p>
+
+                <div class="editorial-line"></div>
+
+                <span class="editorial-signature">
+                    BIBI — PRIVATE EXPERIENCE
+                </span>
+            </div>
+
+        </section>
+
+        <!-- LADO DO LOGIN -->
+        <section class="access-section">
+
+            <div class="access-card">
+
+                <div class="monogram">R.</div>
+
+                <span class="eyebrow access-eyebrow">
+                    YOUR PRIVATE SPACE
+                </span>
+
+                <h2 id="titulo">Bem-vinda de volta.</h2>
+
+                <p class="access-subtitle" id="subtitulo">
+                    Entre para descobrir seu universo exclusivo.
+                </p>
+
+                <div
+                    id="mensagem"
+                    class="mensagem"
+                    role="status"
+                    aria-live="polite"
+                ></div>
+
+                <!-- LOGIN -->
+                <form id="formLogin">
+
+                    <div class="campo">
+                        <label for="emailLogin">E-MAIL</label>
+
+                        <input
+                            type="email"
+                            id="emailLogin"
+                            placeholder="seunome@gmail.com"
+                            autocomplete="username"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="senhaLogin">SENHA</label>
+
+                        <input
+                            type="password"
+                            id="senhaLogin"
+                            placeholder="Digite sua senha"
+                            autocomplete="current-password"
+                            minlength="6"
+                            maxlength="8"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit" id="botaoLogin">
+                        ENTRAR NA SUA CONTA
+                        <span aria-hidden="true">↗</span>
+                    </button>
+
+                    <p class="troca-tela">
+                        Ainda não faz parte?
+                        <a href="#" id="irCadastro">Criar uma conta</a>
+                    </p>
+
+                </form>
+
+                <!-- CADASTRO -->
+                <form id="formCadastro" hidden>
+
+                    <div class="campo">
+                        <label for="emailCadastro">SEU E-MAIL</label>
+
+                        <input
+                            type="email"
+                            id="emailCadastro"
+                            placeholder="seunome@gmail.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="senhaCadastro">CRIE SUA SENHA</label>
+
+                        <input
+                            type="password"
+                            id="senhaCadastro"
+                            placeholder="6 a 8 caracteres"
+                            autocomplete="new-password"
+                            minlength="6"
+                            maxlength="8"
+                            required
+                        >
+
+                        <small>
+                            Utilize entre 6 e 8 caracteres.
+                        </small>
+                    </div>
+
+                    <button type="submit">
+                        CRIAR MINHA CONTA
+                        <span aria-hidden="true">↗</span>
+                    </button>
+
+                    <p class="troca-tela">
+                        Já possui uma conta?
+                        <a href="#" id="irLogin">Fazer login</a>
+                    </p>
+
+                </form>
+
+                <div class="access-footer">
+                    <span>EXCLUSIVIDADE</span>
+                    <span class="footer-diamond">✧</span>
+                    <span>SOFISTICAÇÃO</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <span>BIBI © 2026</span>
+        <span>THE ART OF HAUTE COUTURE</span>
+        <span>MADE WITH INTENTION ♡</span>
+    </footer>
+
+</body>
+</html>
+
